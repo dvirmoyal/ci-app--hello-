@@ -1,0 +1,105 @@
+.App {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .App-header p {
+    margin: 0;
+    opacity: 0.8;
+  }
+  
+  .calculator {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:nth-child(1), button:nth-child(2) {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button:nth-child(3), button:nth-child(4) {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .error {
+    color: #f44336;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ffebee;
+    border-radius: 4px;
+    border-left: 4px solid #f44336;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+    border-left: 4px solid #4caf50;
+  }
+  
+  .result h2 {
+    margin: 0;
+    color: #2e7d32;
+  }
+  
+  .operation-info {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+  }
